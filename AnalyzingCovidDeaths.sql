@@ -126,5 +126,6 @@ and dea.date = vac.date
 where dea.continent is not null 
 -- order by 1,2,3
 
+-- Viewing the changes
 Select * 
 From PercentPopulationVaccinated

@@ -6,7 +6,7 @@ From PortfolioProject.dbo.NashvilleHousing
 Update NashvilleHousing 
 SET SaleDate = CONVERT(Date, SaleDate) 
 
--- Adding SaleDateConverted
+-- Adding SaleDateConverted Column
 ALTER TABLE NashvilleHousing 
 Add SaleDateConverted Date;
 
